@@ -1,0 +1,111 @@
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px 50px;
+    }
+
+    #menu-icon {
+        display: initial;
+        margin-top: -8px;
+        font-size: 2rem;
+    }
+
+    header .navbar {
+        position: absolute;
+        top: -400px;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+        background: transparent;
+        transition: .3s;
+    }
+
+    header .navbar.active {
+        top: 70px;
+    }
+
+    .navbar a {
+        display: block;
+        padding: 0.5rem;
+    }
+
+    .text {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        padding: 10px 30px;
+    }
+
+    #menu-icon {
+        margin-top: -10px;
+        font-size: 2rem;
+    }
+
+    .home-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .home-text p {
+        font-size: 0.9rem;
+    }
+
+    .home-text .home-btn {
+        font-size: 0.9rem;
+    }
+
+    .hero-container > h1 {
+        font-size: 2rem;
+    }
+
+    .img-container1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .image-box img {                                                                                                                                                                
+        height: 200px;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .text h1 {
+        font-size: 1rem;
+    }
+
+    .text p {
+        font-size: 0.6rem;
+        margin-left: -20px;
+    }
+
+    .info {
+        padding: 40px 10%;
+    }
+
+    .info-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .info-container h5 {
+        font-size: 1rem;
+    }
+
+    .info-container p {
+        font-size: 0.8rem;
+    }
+
+    .info-btn {
+        padding: 10px 40px;
+        font-size: 0.8rem;
+    }
+
+    .social span i {
+        font-size: 2rem;
+    }
+}
